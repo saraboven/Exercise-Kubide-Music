@@ -1,0 +1,23 @@
+
+footer {
+margin-top: 20px;
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+}
+@media (min-width:$max-screen-size-tablet) {
+  footer {
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.text-footer {
+  color: $secundary-color;
+  padding: 2%;
+}
+
+.icon-social {
+  width: 50px;
+  padding-right: 5%;
+}

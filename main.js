@@ -1,12 +1,12 @@
 'use strict';
 
 const listItems = [
-  {name: 'Home', link:'index.html'},
+  // {name: 'Home', link:'index.html'},
   {name: 'Foo', link:'foo.html'},
   {name: 'Bar', link:'bar.html'},
-  {name: 'The Rolling Stones', link:'the-rolling-stones.html'},
+  {name: 'Queen', link:'queen.html'},
   {name: 'The Beatles', link:'beatles.html'},
-  {name: 'Queen', link:'queen.html'}
+  {name: 'The Rolling Stones', link:'the-rolling-stones.html'}
 ];
 
 const list = document.querySelector(".list-item");
