@@ -12,19 +12,19 @@ html {
   height: 100vh;
   margin: 0; }
 
-.h1-construction {
-  color: white;
-  font-size: 2em;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0; }
-
 h1 {
   color: #232f3e;
   font-size: 3em;
   text-shadow: 1px 1px 2px black, 0 0 25px #232f3e, 0 0 5px #2C835F;
   text-transform: uppercase;
   text-align: center; }
+
+.h1-construction {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px; }
 
 p {
   color: #232f3e;
@@ -33,31 +33,36 @@ p {
   margin-bottom: 30px; }
 
 ul {
-  margin-top: 100px;
-  margin-bottom: 125px; }
+  margin-top: 90px;
+  margin-bottom: 100px; }
+
+@media (min-width: 768px) {
+  ul {
+    margin-top: 100px;
+    margin-bottom: 140px; } }
+li {
+  list-style: none; }
 
 a {
   text-decoration: none;
   border: none;
   color: white;
   font-weight: bold;
-  font-size: 2.5em; }
-
-li {
-  list-style: none; }
-
-.under-const {
-  width: 200px;
-  margin-left: 480px;
-  margin-top: 30px; }
+  font-size: 2.5em;
+  text-shadow: 1px 1px 2px black, 0 0 25px #232f3e, 0 0 5px #2C835F; }
 
 .container {
-  width: 70%;
+  width: 80%;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   margin-bottom: 60px; }
 
+@media (min-width: 768px) {
+  .container {
+    width: 70%;
+    max-width: 800px; } }
 .group-flex {
   border-radius: 10px;
   display: -webkit-box;
@@ -78,12 +83,31 @@ li {
   border-radius: 10px; }
 
 .iframe-video {
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
+@media (min-width: 768px) {
+  .iframe-video {
+    margin-bottom: 50px; } }
+.under-const {
+  margin-top: 30px; }
+
+.img-under-const {
+  width: 200px;
+  margin-left: 20%; }
+
+@media (min-width: 768px) {
+  .img-under-const {
+    width: 200px;
+    margin-left: 40%; } }
 .back-home {
-  margin-left: 92%;
-  margin-top: 20px; }
+  margin-left: 80%;
+  margin-top: 20px;
+  width: 40px; }
 
+@media (min-width: 768px) {
+  .back-home {
+    margin-left: 90%;
+    width: 60px; } }
 footer {
   margin-top: 20px;
   display: -webkit-box;

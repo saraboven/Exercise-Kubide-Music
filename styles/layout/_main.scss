@@ -1,7 +1,17 @@
 
 ul{
-margin-top: 100px;
-margin-bottom: 125px;
+margin-top: 90px;
+margin-bottom: 100px;
+}
+@media (min-width:$max-screen-size-tablet) {
+  ul{
+  margin-top: 100px;
+  margin-bottom: 140px;
+  }
+}
+
+li{
+list-style: none;
 }
 
 a{
@@ -10,24 +20,22 @@ border: none;
 color: $secundary-color;
 font-weight: bold;
 font-size: 2.5em;
-}
-
-li{
-list-style: none;
-}
-
-.under-const{
-width: 200px;
-margin-left: 480px;
-margin-top: 30px;
+text-shadow: 1px 1px 2px black, 0 0 25px $primary-color, 0 0 5px #2C835F;
 }
 
 .container{
-width: 70%;
+width: 80%;
+max-width: 600px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 40px;
 margin-bottom: 60px;
+}
+@media (min-width:$max-screen-size-tablet) {
+  .container{
+  width: 70%;
+  max-width: 800px;
+  }
 }
 
 .group-flex{
@@ -38,6 +46,11 @@ align-items: center;
 margin-top: 50px;
 background-color: white;
 }
+@media (min-width:$max-screen-size-tablet) {
+  .group-flex{
+
+  }
+}
 
 .group-img{
 margin-bottom: 30px;
@@ -45,10 +58,38 @@ border-radius: 10px;
 }
 
 .iframe-video{
-margin-bottom: 50px;
+margin-bottom: 30px;
+}
+@media (min-width:$max-screen-size-tablet) {
+  .iframe-video{
+  margin-bottom: 50px;
+  }
+}
+
+
+.under-const{
+margin-top: 30px;
+}
+
+.img-under-const{
+width: 200px;
+margin-left: 20%;
+}
+@media (min-width:$max-screen-size-tablet) {
+  .img-under-const{
+  width: 200px;
+  margin-left: 40%;
+  }
 }
 
 .back-home{
-margin-left: 92%;
+margin-left: 80%;
 margin-top: 20px;
+width: 40px;
+}
+@media (min-width:$max-screen-size-tablet) {
+  .back-home{
+  margin-left: 90%;
+  width: 60px;
+  }
 }
