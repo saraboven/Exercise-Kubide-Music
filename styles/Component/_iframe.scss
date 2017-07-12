@@ -1,0 +1,12 @@
+
+iframe{
+  height: 30%;
+  margin-bottom: 50px;
+  width: 85%;
+}
+@media (min-width:$max-screen-size-tablet) {
+  iframe{
+    height:315px;
+    width:560px;
+  }
+}

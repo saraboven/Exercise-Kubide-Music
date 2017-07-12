@@ -1,14 +1,14 @@
 
 footer {
-margin-top: 20px;
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-top: 20px;
 }
 @media (min-width:$max-screen-size-tablet) {
   footer {
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
   }
 }
 
@@ -18,6 +18,6 @@ justify-content: center;
 }
 
 .icon-social {
-  width: 50px;
   padding-right: 5%;
+  width: 50px;
 }
