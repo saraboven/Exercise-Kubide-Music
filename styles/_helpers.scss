@@ -1,0 +1,13 @@
+
+.hide {
+  display: none;
+}
+
+.hide-list{
+  display: none;
+}
+@media (min-width: $max-screen-size-tablet) {
+  .hide-list{
+    display: block;
+  }
+}
